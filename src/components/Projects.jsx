@@ -119,7 +119,7 @@ export default function Projects() {
                 </div>
                 <button className="px-4 bg-purple rounded-lg text-center mt-2 hover:scale-110 duration-500">
                   <a
-                    href="https://abhishekchavan14.github.io/Memory-Game/"
+                    href="https://www.figma.com/community/file/1321077505629927349/neon-themed-interactive-portfolio"
                     target="_blank"
                   >
                     <p className="flex justify-center items-center text-sm">
@@ -176,7 +176,7 @@ export default function Projects() {
                 </div>
                 <button className="px-4 bg-purple rounded-lg text-center mt-2 hover:scale-110 duration-500">
                   <a
-                    href="https://abhishekchavan14.github.io/Memory-Game/"
+                    href="https://abhishekchavan14.github.io/WeatherApp/"
                     target="_blank"
                   >
                     <p className="flex justify-center items-center text-sm">
