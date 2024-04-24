@@ -1,8 +1,4 @@
-import React, { useEffect, useState } from "react";
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
+import React, { useEffect, useState } from "react";git 
 import { FaArrowDownLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -26,9 +22,9 @@ export default function Projects() {
             <div className="flex flex-col xl:flex xl:flex-row items-center xl:justify-around mx-10 mt-5">
               <div className="w-[70%] xl:w-[35%] xl:mb-10 mt-10 xl:mt-0 relative group overflow-hidden shadow-custom-white rounded-xl duration-500">
                 <div>
-                  <img src={project1} alt="" />
+                  <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966895/project1_h2zu1e.png" alt="" />
                 </div>
-                <div className="absolute bottom-[-100%] right-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:right-0 group-hover:bottom-0">
+                <div className="hidden xl:block xl:absolute bottom-[-100%] right-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:right-0 group-hover:bottom-0">
                   <p>
                     A classic puzzle where players flip pairs of cards in search
                     of matching pairs. The goal is to uncover all pairs with the
@@ -81,9 +77,9 @@ export default function Projects() {
               </div>
               <div className="w-[70%] xl:w-[35%] xl:mb-10 mt-10 xl:mt-0 relative group overflow-hidden shadow-custom-white rounded-xl duration-500">
                 <div>
-                  <img src={project3} alt="" />
+                  <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966896/project3_i8mkya.png" alt="" />
                 </div>
-                <div className="absolute bottom-[-100%] left-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:left-0 group-hover:bottom-0">
+                <div className="hidden xl:block xl:absolute bottom-[-100%] left-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:left-0 group-hover:bottom-0">
                   <p>
                     This portfolio is my first Figma project, designed to
                     showcase my UI skills and creativity. The use of neon-themed
@@ -137,9 +133,9 @@ export default function Projects() {
             <div className="flex flex-col xl:flex xl:flex-row items-center xl:justify-around mx-10 mt-5">
               <div className="w-[70%] xl:w-[35%] xl:mb-10 mt-10 xl:mt-0 relative group overflow-hidden shadow-custom-white rounded-xl duration-500">
                 <div>
-                  <img src={project2} alt="" />
+                  <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966896/project2_pshfsv.png" alt="" />
                 </div>
-                <div className="absolute top-[-100%] right-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:right-0 group-hover:top-0">
+                <div className="hidden xl:block xl:absolute top-[-100%] right-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:right-0 group-hover:top-0">
                   <p>
                     This application provides a simple and intuitive way to get
                     weather information for any city. With a clean and
@@ -192,9 +188,9 @@ export default function Projects() {
               </div>
               <div className="w-[70%] xl:w-[35%] xl:mb-10 mt-10 xl:mt-0 relative group overflow-hidden shadow-custom-white rounded-xl duration-500 ">
                 <div>
-                  <img src={project4} alt="" />
+                  <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966896/project4_obrgj1.png" alt="" />
                 </div>
-                <div className="absolute top-[-100%] left-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:left-0 group-hover:top-0">
+                <div className="hidden xl:block xl:absolute top-[-100%] left-[-100%] w-full h-full bg-white text-black p-10 opacity-100 duration-1000 group-hover:left-0 group-hover:top-0">
                   <p>
                     This application, allows authenticated users to review
                     movies, engage in discussions, and rate or react to other

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import profilepic from "../assets/ProfilePic.png";
 import lightbulb from "../assets/LightBulb.png";
 import glow from "../assets/Glow.png";
 import {
@@ -11,7 +10,7 @@ import {
 import { FaArrowDownLong } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import resume from '../assets/Abhishek_chavan_resume.pdf'
+import resume from "../assets/Abhishek_chavan_resume.pdf";
 
 export default function Hero() {
   const [loader, setLoader] = useState(true);
@@ -33,7 +32,7 @@ export default function Hero() {
             <div className="flex justify-center p-2 md:w-1/2 ">
               <div className="fadeIn w-[80%] md:w-[70%]">
                 <img
-                  src={profilepic}
+                  src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966893/ProfilePic_dw92og.png"
                   alt="Profile Picture"
                   className="z-[-10]"
                 />
@@ -68,8 +67,13 @@ export default function Hero() {
               </div>
               <div className="flex flex-col justify-center md:flex-row md:justify-end items-center mt-10">
                 <button>
-                  <a href={resume} target="_blank" className="hover-text-purple rounded-xl px-3 py-1 mb-5 md:mr-12 md:mb-0 md:text-xl shadow-custom duration-300 flex items-center justify-center">Resume
-                  <FaFileDownload className="ml-2" />
+                  <a
+                    href={resume}
+                    target="_blank"
+                    className="hover-text-purple rounded-xl px-3 py-1 mb-5 md:mr-12 md:mb-0 md:text-xl shadow-custom duration-300 flex items-center justify-center"
+                  >
+                    Resume
+                    <FaFileDownload className="ml-2" />
                   </a>
                 </button>
                 <div className="flex space-x-4 justify-center items-center md:text-xl">
@@ -107,10 +111,7 @@ export default function Hero() {
           </div>
           <div className="mt-5 flex justify-center">
             <div className="border border-purple px-1 py-4 lg:px-2 lg:py-5 rounded-2xl animate-bounce-slow cursor-pointer hover:border-white hover:text-purple duration-300">
-              <Link
-                to='/about'
-                className="duration-300 border-b hover:pb-1"
-              >
+              <Link to="/about" className="duration-300 border-b hover:pb-1">
                 <FaArrowDownLong className="lg:scale-150" />
               </Link>
             </div>

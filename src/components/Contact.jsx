@@ -1,6 +1,4 @@
 import React,  { useEffect, useState } from "react";
-import ContactIllustration from "../assets/contact.jpg";
-import AboutPic3 from "../assets/AboutPic3.jpg";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
@@ -25,7 +23,7 @@ export default function Contact() {
             <div className="fadeIn w-[90%] xl:w-[60%] flex group">
               <div className="w-[100%] xl:w-[50%] border flex flex-col p-4 items-center">
                 <div className="w-[30%] overflow-hidden rounded-full border-4 border-purple">
-                  <img src={AboutPic3} alt="image" />
+                  <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966894/AboutPic3_pcei0i.jpg" alt="image" />
                 </div>
                 <div className="w-full text-center my-4">
                   <input
@@ -79,7 +77,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="hidden xl:block w-[50%]">
-                <img src={ContactIllustration} alt="" />
+                <img src="https://res.cloudinary.com/duxvkrrpm/image/upload/v1713966894/contact_i4fmjd.jpg" alt="" />
               </div>
             </div>
           </div>
