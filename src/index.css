@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  user-select: none;
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background: #000000;
+  /* background: #ffffff; */
+  color: white;
+  font-family: "Bebas Neue";
+  /* overflow-y: hidden; */
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 1);
+  /* Adjust the values as needed */
+}
+
+.shadow-custom {
+  box-shadow: 0px 0px 20px 2px #B336FF;
+}
+
+.shadow-custom-sm {
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-radius: 10px;
+
+}
+
+.shadow-custom:hover {
+  box-shadow: 0px 0px 20px 8px #B336FF;
+
+}
+.shadow-custom-white {
+  box-shadow: 0px 0px 10px 0px #ffffff;
+}
+
+.shadow-custom-sm {
+  box-shadow: 0px 0px 10px 0px #ffffff;
+  border-radius: 10px;
+
+}
+
+.shadow-custom-white:hover {
+  box-shadow: 0px 0px 20px 0px #ffffff;
+
+}
+
+.animated-spin-once {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.animate-top-to-bottom {
+  animation-name: top-bottom;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 10%;
+    scale: 90%;
+  }
+
+  to {
+    opacity: 100%;
+    scale: 100%;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes top-bottom {
+  0% {
+    top: -100%;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  100% {
+    top: -100%;
+  }
+}
