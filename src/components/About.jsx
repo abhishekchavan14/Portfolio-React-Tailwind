@@ -119,7 +119,7 @@ export default function About() {
 const CertificateContainer = ({ cloudUrl }) => {
   return (
     <>
-      <div className="w-full xl:w-10  mx-2 xl:opacity-50 hover:w-[50%] hover:opacity-100 hover:shadow-md hover:shadow-white duration-700 text-center overflow-hidden p-1 rounded-xl border border-purple">
+      <div className="w-full xl:w-10  mx-2 xl:opacity-50 xl:hover:w-[50%] hover:opacity-100 hover:shadow-md hover:shadow-white duration-700 text-center overflow-hidden p-1 rounded-xl border border-purple">
         <img
           src={cloudUrl}
           alt="certificate"
